@@ -1,6 +1,6 @@
 {
     "name": "rwsite/moonshine-polaris-theme",
-    "description": "Reusable Polaris theme for MoonShine admin panel",
+    "description": "Polaris visual theme for MoonShine Laravel admin panel",
     "type": "library",
     "license": "MIT",
     "keywords": [

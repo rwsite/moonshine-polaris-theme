@@ -1,10 +1,39 @@
 # MoonShine Polaris Theme
 
+Theme package for Laravel admin panel [MoonShine](https://getmoonshine.app) (MoonShine v4).
+
+> This is **not** a standalone admin panel.
+> It is a visual theme layer for existing MoonShine projects.
+
+## What is implemented
+
 Reusable MoonShine v4 theme package with:
 
 - Polaris color palette (light + dark)
 - Reusable base layout without project business menu
 - Custom CSS overrides for cleaner admin UI
+
+## Compatibility
+
+- PHP: `^8.2`
+- MoonShine: `^4.4`
+- Laravel: `10/11/12` (via MoonShine requirements)
+
+## Why Polaris Theme
+
+MoonShine has a great default look and official palette tooling in
+[Palette Generator](https://getmoonshine.app/palette-generator).
+
+Polaris Theme goes further by combining color palette + layout + UI polish in one package:
+
+- refined typography and spacing for dense admin screens,
+- improved dark-mode contrast for forms and controls,
+- cleaner sidebar behavior (active, hover, submenu readability),
+- softer action/button states in tables,
+- more consistent cards, badges, metrics, and scrollbars.
+
+If you want a cleaner and more product-like back-office look without rewriting MoonShine UI manually,
+Polaris Theme gives you an opinionated ready-to-use setup.
 
 ## Preview
 
@@ -72,8 +101,8 @@ php artisan vendor:publish --tag=moonshine-polaris-theme-assets --force
 ## Release
 
 ```bash
-git tag v1.0.0
-git push origin v1.0.0
+git tag v1.0.1
+git push origin v1.0.1
 ```
 
 ## License
