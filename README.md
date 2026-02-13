@@ -6,6 +6,11 @@ Reusable MoonShine v4 theme package with:
 - Reusable base layout without project business menu
 - Custom CSS overrides for cleaner admin UI
 
+## Preview
+
+![Polaris Theme - Edit form](docs/screenshots/admin-edit.png)
+![Polaris Theme - List view](docs/screenshots/list-view.png)
+
 ## Installation
 
 ```bash
@@ -62,6 +67,13 @@ Then set:
 
 ```bash
 php artisan vendor:publish --tag=moonshine-polaris-theme-assets --force
+```
+
+## Release
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
 ```
 
 ## License
