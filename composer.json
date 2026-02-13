@@ -1,0 +1,31 @@
+{
+    "name": "rwsite/moonshine-polaris-theme",
+    "description": "Reusable Polaris theme for MoonShine admin panel",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "moonshine",
+        "laravel",
+        "admin",
+        "theme",
+        "polaris"
+    ],
+    "require": {
+        "php": "^8.2",
+        "moonshine/moonshine": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rwsite\\MoonShinePolarisTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rwsite\\MoonShinePolarisTheme\\PolarisThemeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
